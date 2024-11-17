@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Jonathan Shui Personal Website
+title: Jonathan Shui
 
 # Your name to show in the footer
 author: Jonathan Shui
@@ -269,19 +269,6 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # any file that's not a post will be a "page" layout by default
-    values:
-      layout: "page"
 
 # Exclude these files from production site
 exclude:
